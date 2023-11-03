@@ -1,0 +1,93 @@
+.left {
+    width: 230px;
+    height: 100vh;
+    // border: 1px solid red;
+    position: fixed;
+    background: linear-gradient(341deg, #003F58 7.44%, #028090 50.75%, #00A896 83.99%, #F0F3BD 121.05%);
+    padding-top: 43px;
+
+    .logoWrap {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        cursor: pointer;
+
+
+        img {
+            width: 32px;
+            height: 32px;
+        }
+
+        p {
+            color: #fff;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+
+            @media (min-width: 1440px) {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .linkWrap {
+        margin-top: 46px;
+
+        p {
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-align: center;
+            margin-bottom: 16px;
+            color: #FFF;
+
+            @media (min-width: 1440px) {
+                font-size: 15px;
+            }
+        }
+
+        ul {
+
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+            // justify-content: center;
+            list-style: none;
+            gap: 16px;
+
+            .active {
+                background: rgba(217, 217, 217, 0.09);
+                box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.30);
+                backdrop-filter: blur(5px);
+            }
+
+            li {
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                // border: 1px solid red;
+                // margin: 0 auto;
+                padding: 11px 27px;
+
+                // &:first-child {
+                //     text-align: center;
+                //     padding: 0;
+                // }
+
+                @media (min-width: 1440px) {
+                    font-size: 15px;
+                }
+
+                a {
+                    max-width: 150px;
+                    color: #FFF;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

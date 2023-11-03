@@ -1,0 +1,287 @@
+.jobsWrap {
+
+
+    .left {
+        width: 230px;
+        height: 100vh;
+        position: fixed;
+        background: linear-gradient(341deg, #003F58 7.44%, #028090 50.75%, #00A896 83.99%, #F0F3BD 121.05%);
+        padding-top: 43px;
+
+        @media (max-width: 768px) {
+            left: -300px;
+            width: 300px;
+            transition: all 0.5s ease-in;
+        }
+
+        .barIcon {
+            width: 24px;
+            height: 24px;
+            color: #fff;
+            display: none;
+
+            @media (max-width:768px) {
+                display: block;
+            }
+        }
+
+        .logo_close_wrap {
+
+            @media (max-width: 768px) {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 20px;
+            }
+        }
+
+        .logoWrap {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            cursor: pointer;
+
+
+            img {
+                width: 32px;
+                height: 32px;
+            }
+
+            p {
+                color: #fff;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+
+                @media (min-width: 1440px) {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .linkWrap {
+            margin-top: 46px;
+
+            p {
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                // text-align: center;
+                margin-bottom: 16px;
+                color: #FFF;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+
+                @media (min-width: 1440px) {
+                    font-size: 15px;
+                }
+
+                @media (max-width: 768px) {
+                    justify-content: flex-start;
+                    padding-left: 27px;
+                }
+                
+            }
+
+            ul {
+
+                display: flex;
+                flex-direction: column;
+                list-style: none;
+                gap: 16px;
+
+                .active {
+                    background: rgba(217, 217, 217, 0.09);
+                    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.30);
+                    backdrop-filter: blur(5px);
+                }
+
+                li {
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    padding: 11px 27px;
+
+
+                    @media (min-width: 1440px) {
+                        font-size: 15px;
+                    }
+
+                    a {
+                        max-width: 150px;
+                        color: #FFF;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .right {
+        min-height: 100vh;
+        margin-left: 230px;
+        padding: 43px 31px;
+
+        @media (min-width: 1440px) {
+            padding: 43px 80px;
+        }
+
+        @media (max-width: 768px) {
+            margin-left: 0px;
+        }
+
+        .formLink {
+            border-radius: 10px;
+            background: #00A896;
+            color: #FFF;
+            text-align: center;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            padding: 8px 30px;
+            text-decoration: none;
+
+            @media (min-width: 1440px) {
+                font-size: 16px;
+                padding: 13px 50px;
+            }
+        }
+
+        .top {
+            display: flex;
+            justify-content: space-between;
+
+            h3 {
+                color: #000;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                text-decoration: underline;
+                text-decoration-color: #00A896;
+
+
+                @media (min-width: 1440px) {
+                    font-size: 20px;
+                }
+            }
+
+            a {
+                @media (max-width: 580px) {
+                    display: none;
+                }
+            }
+
+            .barIcon {
+                display: none;
+
+                @media (max-width:768px) {
+                    display: block;
+                }
+
+            }
+
+        }
+
+        .jobProfileWrap {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            // border: 1px solid red;
+            margin-top: 31px;
+
+            ul {
+                max-width: 500px;
+                display: flex;
+                list-style: none;
+                gap: 50px;
+
+                @media (min-width: 1440px) {
+                    max-width: 600px;
+                }
+
+                li {
+                    flex: 1.5;
+                    color: #000;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    // border: 1px solid red;
+                   
+
+                    @media (min-width: 1440px) {
+                        font-size: 16px;
+                    }
+
+                    &:last-child {
+                        flex: 4.5;
+                        // border: 1px solid red;
+                        display: flex;
+                        justify-content: flex-start;
+                    }
+                }
+            }
+        }
+
+        .sectionWrap {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-top: 24px;
+            // border: 1px solid red;
+        }
+
+                .subHead {
+                    color: #000;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+        
+        
+                    @media (min-width: 1440px) {
+                        font-size: 16px;
+                    }
+                }
+
+                .desc {
+                    color: #000;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                
+                    @media (min-width: 1440px) {
+                        font-size: 14px;
+                    }
+                }
+
+                .listWrap {
+                    color: #000;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+
+                    @media (min-width: 1440px) {
+                        font-size: 14px;
+                    }
+                }
+    }
+
+
+    .btnWrap {
+        margin-top: 24px;
+
+        text-align: center;
+    }
+}
