@@ -136,6 +136,9 @@
         @media (max-width: 768px) {
             margin-left: 0px;
         }
+        @media (max-width: 450px) {
+            padding: 43px 25px;
+        }
 
         .formLink {
             border-radius: 10px;
@@ -172,6 +175,10 @@
                 @media (min-width: 1440px) {
                     font-size: 20px;
                 }
+
+                @media (max-width:450px) {
+                    font-size: 16px;
+                }
             }
 
             a {
@@ -203,6 +210,7 @@
                 display: flex;
                 list-style: none;
                 gap: 50px;
+                
 
                 @media (min-width: 1440px) {
                     max-width: 600px;
@@ -215,7 +223,6 @@
                     font-style: normal;
                     font-weight: 500;
                     line-height: normal;
-                    // border: 1px solid red;
                    
 
                     @media (min-width: 1440px) {
