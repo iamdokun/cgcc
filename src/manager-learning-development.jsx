@@ -90,12 +90,12 @@ const ManagerLearningDevelopment = () => {
           </ul>
         </div>
 
-        <div className={styles.sectionWrap}>
+        {/* <div className={styles.sectionWrap}>
           <h4 className={styles.subHead}>Job Accountabilities</h4>
           <p className={styles.desc}>
           Ensure proper designing and execution of learning strategies, managing training programs and developing employees’ as well as participants skills and knowledge within the organization.
           </p>
-        </div>
+        </div> */}
 
         <div className={styles.sectionWrap}>
           <h4 className={styles.subHead}>Profile</h4>
@@ -120,7 +120,7 @@ const ManagerLearningDevelopment = () => {
           </ul>
         </div>
 
-        <div className={styles.sectionWrap}>
+        {/* <div className={styles.sectionWrap}>
           <h4 className={styles.subHead}>Functions & Responsibilities</h4>
           <ul className={styles.listWrap}>
             <li>
@@ -156,7 +156,7 @@ const ManagerLearningDevelopment = () => {
             </li>
             
           </ul>
-        </div>
+        </div> */}
 
         <div className={styles.sectionWrap}>
           <h4 className={styles.subHead}>Skills/Competence Requirement</h4>

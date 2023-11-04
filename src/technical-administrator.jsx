@@ -94,12 +94,12 @@ const TechnicalAdministrator = () => {
           </ul>
         </div>
 
-        <div className={styles.sectionWrap}>
+        {/* <div className={styles.sectionWrap}>
           <h4 className={styles.subHead}>Job Accountabilities</h4>
           <p className={styles.desc}>
           The Technical and Business Administrator will play a crucial role in ensuring the smooth operation and growth CGCC Foundation. This position combines technical expertise with strong administrative skills to support the foundation's educational initiatives and business activities.
           </p>
-        </div>
+        </div> */}
 
         <div className={styles.sectionWrap}>
           <h4 className={styles.subHead}>Profile</h4>
@@ -123,7 +123,7 @@ const TechnicalAdministrator = () => {
           </ul>
         </div>
 
-        <div className={styles.sectionWrap}>
+        {/* <div className={styles.sectionWrap}>
           <h4 className={styles.subHead}>Functions & Responsibilities</h4>
           <p className={styles.desc}>Administrative</p>
           <ul className={styles.listWrap}>
@@ -192,7 +192,7 @@ const TechnicalAdministrator = () => {
             <li>Specify system requirements and design solutions.</li>
             <li>Research and make recommendations on server system administration.</li>
           </ul>
-        </div>
+        </div> */}
 
         <div className={styles.sectionWrap}>
           <h4 className={styles.subHead}>Skills/Competence Requirement</h4>

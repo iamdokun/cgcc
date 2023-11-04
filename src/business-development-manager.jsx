@@ -90,12 +90,12 @@ const BusinessDevelopmentManager = () => {
           </ul>
         </div>
 
-        <div className={styles.sectionWrap}>
+        {/* <div className={styles.sectionWrap}>
           <h4 className={styles.subHead}>Job Accountabilities</h4>
           <p className={styles.desc}>
           The Business & Development Manager (Commercial) will play a pivotal role in driving the commercial aspects of CGCC Foundation, facilitating sustainable growth and partnerships. This position focuses on developing revenue streams and expanding the foundation's presence in its chosen sectors. Commercial Lead is to add value to the growth activities by identifying new commercial opportunities and managing marketing efforts. Keep abreast of trends and market conditions to provide strategic advice to upper management. An excellent commercial professional has an entrepreneurial mindset and great leadership skills. The ideal candidate will also be a creative strategist with excellent organizational abilities. The goal is to promote and expand the company’s commercial activity that will generate revenues and lead to sustainable growth
           </p>
-        </div>
+        </div> */}
 
         <div className={styles.sectionWrap}>
           <h4 className={styles.subHead}>Profile</h4>
@@ -112,7 +112,7 @@ const BusinessDevelopmentManager = () => {
           </ul>
         </div>
 
-        <div className={styles.sectionWrap}>
+        {/* <div className={styles.sectionWrap}>
           <h4 className={styles.subHead}>Functions & Responsibilities</h4>
           <ul className={styles.listWrap}>
             <li>
@@ -148,13 +148,9 @@ const BusinessDevelopmentManager = () => {
             <li>
             Understanding and developing budgets and finance, including expenditures, research and development appropriations, return-on-investment, and profit-loss projections
             </li>
-            {/* <li>
-              Address any issues or challenges that may arise during program
-              implementation, finding practical solutions to ensure a positive
-              experience for participants.
-            </li> */}
+           
           </ul>
-        </div>
+        </div> */}
 
         <div className={styles.sectionWrap}>
           <h4 className={styles.subHead}>Skills/Competence Requirement</h4>

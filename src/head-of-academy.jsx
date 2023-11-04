@@ -96,7 +96,7 @@ const HeadAcademy = () => {
           </ul>
         </div>
 
-        <div className={styles.sectionWrap}>
+        {/* <div className={styles.sectionWrap}>
           <h4 className={styles.subHead}>Job Accountabilities</h4>
           <p className={styles.desc}>
             This role is responsible to lead the Digitech Academy of the Citadel
@@ -108,7 +108,7 @@ const HeadAcademy = () => {
             work closely with commercial lead, technical administrative staff,
             and lead trainer to ensure the smooth operation of these programs.
           </p>
-        </div>
+        </div> */}
 
         <div className={styles.sectionWrap}>
           <h4 className={styles.subHead}>Profile</h4>
@@ -134,7 +134,7 @@ const HeadAcademy = () => {
           </ul>
         </div>
 
-        <div className={styles.sectionWrap}>
+        {/* <div className={styles.sectionWrap}>
           <h4 className={styles.subHead}>Functions & Responsibilities</h4>
           <ul className={styles.listWrap}>
             <li>
@@ -195,7 +195,7 @@ const HeadAcademy = () => {
               experience for participants.
             </li>
           </ul>
-        </div>
+        </div> */}
 
         <div className={styles.sectionWrap}>
           <h4 className={styles.subHead}>Skills/Competence Requirement</h4>
