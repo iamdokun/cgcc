@@ -37,7 +37,7 @@ const Home = () => {
       </header>
 
       <main>
-        <h1>Job Oppurtunities</h1>
+        <h1>Job Opportunities</h1>
         <h3>
           Advance your career and take the next steps with job oppurtunities
           available at CGCCDigitech academy

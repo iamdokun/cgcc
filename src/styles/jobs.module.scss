@@ -5,7 +5,8 @@
         width: 230px;
         height: 100vh;
         position: fixed;
-        background: linear-gradient(341deg, #003F58 7.44%, #028090 50.75%, #00A896 83.99%, #F0F3BD 121.05%);
+        // background: linear-gradient(341deg, #003F58 7.44%, #028090 50.75%, #00A896 83.99%, #F0F3BD 121.05%);
+        background: #1B1B1B;
         padding-top: 43px;
 
         @media (max-width: 768px) {
@@ -96,9 +97,9 @@
                 gap: 16px;
 
                 .active {
-                    background: rgba(217, 217, 217, 0.09);
-                    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.30);
-                    backdrop-filter: blur(5px);
+                    background:  rgba(251, 188, 65, 0.77);
+box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.30);
+backdrop-filter: blur(5px);
                 }
 
                 li {
@@ -142,7 +143,7 @@
 
         .formLink {
             border-radius: 10px;
-            background: #00A896;
+            background: #FBBC41;
             color: #FFF;
             text-align: center;
             font-size: 12px;
@@ -169,7 +170,7 @@
                 font-weight: 600;
                 line-height: normal;
                 text-decoration: underline;
-                text-decoration-color: #00A896;
+                text-decoration-color: #000;
 
 
                 @media (min-width: 1440px) {

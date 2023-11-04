@@ -186,15 +186,12 @@ const BusinessDevelopmentManager = () => {
             <li>Good report writing and presentation skills.</li>
             <li>Excellent data management skills</li>
           </ul>
-          <br />
+          {/* <br />
           <p className={styles.desc}>Generic Skills</p>
 
           <ul className={styles.listWrap}>
             <li>Good business relationship skills</li>
-            {/* <li>
-              Good leadership skills (Servant leadership skill will be an
-              advantage)
-            </li> */}
+           
             <li>Good negotiation & communication skills (writing, verbal)</li>
             <li>Good interpersonal relationship</li>
             <li>Good negotiation skills</li>
@@ -202,10 +199,10 @@ const BusinessDevelopmentManager = () => {
             <li>Coaching </li>
             <li>Organization/ coordination skills</li>
             <li>Leadership/ Team building skills.</li>
-          </ul>
+          </ul> */}
         </div>
 
-        <div className={styles.sectionWrap}>
+        {/* <div className={styles.sectionWrap}>
           <h4 className={styles.subHead}>Key Performance Indicators</h4>
           <ul className={styles.listWrap}>
             <li>
@@ -222,7 +219,7 @@ const BusinessDevelopmentManager = () => {
             </li>
             <li>Return on Investment (ROI): Evaluating the efficiency of business development efforts by assessing the ROI on various marketing and partnership initiatives, ensuring that the resources invested yield positive results for the academy</li>
           </ul>
-        </div>
+        </div> */}
 
         <div className={styles.btnWrap}>
           <Link

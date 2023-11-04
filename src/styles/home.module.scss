@@ -1,6 +1,6 @@
 .homeWrap {
     // background: linear-gradient(117deg, rgba(5, 102, 141, 0.70) 0%, rgba(0, 168, 150, 0.70) 100%), url("../asset/img/homeBg.png") no-repeat;
-    background-image: url("../asset/img/bg.jpg");
+    background-image: url("../asset/img/bgGold.jpg");
     background-size: cover;
     height: 100vh;
     box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.30);
@@ -98,9 +98,9 @@
 
             .navbtn {
                 border-radius: 8px;
-                border: 2px solid #F0F3BD;
-                background: rgba(3, 3, 3, 0.10);
-                backdrop-filter: blur(2px);
+border: 2px solid #FFCE22;
+background: rgba(3, 3, 3, 0.10);
+backdrop-filter: blur(2px);
                 font-size: 15px;
                 padding: 0 8px;
 
@@ -234,10 +234,10 @@
 
         .btn {
             border-radius: 15px;
-            border: 2px solid #F0F3BD;
-            background: rgba(5, 0, 0, 0.30);
-            box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.25);
-            backdrop-filter: blur(5px);
+border: 2px solid  #FFCE22;
+background: rgba(5, 0, 0, 0.30);
+box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(5px);
             font-size: 24px;
             font-style: normal;
             font-weight: 700;

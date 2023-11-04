@@ -233,7 +233,7 @@ const HeadAcademy = () => {
               broader educational landscape
             </li>
           </ul>
-          <br />
+          {/* <br />
           <p className={styles.desc}>Generic Skills</p>
 
           <ul className={styles.listWrap}>
@@ -249,10 +249,10 @@ const HeadAcademy = () => {
             <li>Coaching / Mentoring</li>
             <li>Organization/ coordination skills</li>
             <li>Leadership/ Team building skills.</li>
-          </ul>
+          </ul> */}
         </div>
 
-        <div className={styles.sectionWrap}>
+        {/* <div className={styles.sectionWrap}>
           <h4 className={styles.subHead}>Key Performance Indicators</h4>
           <ul className={styles.listWrap}>
             <li>
@@ -280,7 +280,7 @@ const HeadAcademy = () => {
               online platforms.
             </li>
           </ul>
-        </div>
+        </div> */}
 
         <div className={styles.btnWrap}>
           <Link

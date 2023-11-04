@@ -184,7 +184,7 @@ const ManagerLearningDevelopment = () => {
             <li>Excellent data management skills</li>
           </ul>
           
-          <p className={styles.desc}>Generic Skills</p>
+          {/* <p className={styles.desc}>Generic Skills</p>
 
           <ul className={styles.listWrap}>
             <li>Good negotiation & communication skills (writing, verbal).</li>
@@ -204,10 +204,10 @@ const ManagerLearningDevelopment = () => {
             </li>
             <li>Leadership/ Team building skills</li>
             
-          </ul>
+          </ul> */}
         </div>
 
-        <div className={styles.sectionWrap}>
+        {/* <div className={styles.sectionWrap}>
           <h4 className={styles.subHead}>Key Performance Indicators</h4>
           <ul className={styles.listWrap}>
             <li>
@@ -226,7 +226,7 @@ const ManagerLearningDevelopment = () => {
             <li>Employee engagement – employee performance, satisfaction, and retention</li>
             <li>Stakeholders’ perception – Net Promoter Score (NPS), Return on Investment (RoI – quantitative and qualitative)</li>
           </ul>
-        </div>
+        </div> */}
 
         <div className={styles.btnWrap}>
           <Link

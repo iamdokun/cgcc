@@ -219,8 +219,8 @@ const TechnicalAdministrator = () => {
             </li>
            
           </ul>
-          {/* <br /> */}
-          <p className={styles.desc}>Generic Skills</p>
+          
+          {/* <p className={styles.desc}>Generic Skills</p>
 
           <ul className={styles.listWrap}>
             <li>Excellent customer service and organizational skills.</li>
@@ -239,10 +239,10 @@ const TechnicalAdministrator = () => {
             Organization/ coordination skills
             </li>
             
-          </ul>
+          </ul> */}
         </div>
 
-        <div className={styles.sectionWrap}>
+        {/* <div className={styles.sectionWrap}>
           <h4 className={styles.subHead}>Key Performance Indicators</h4>
           <ul className={styles.listWrap}>
             <li>
@@ -260,7 +260,7 @@ const TechnicalAdministrator = () => {
             <li>Process Improvement: Identifying areas for process improvement within the administrative functions, implementing streamlined processes, and integrating efficient technologies to enhance overall operational effectiveness.</li>
             <li>Customer Service Metrics: Tracking customer service metrics, including response times, query resolution rates, and overall customer satisfaction with the administrative support provided by the digital academy.</li>
           </ul>
-        </div>
+        </div> */}
 
         <div className={styles.btnWrap}>
           <Link
